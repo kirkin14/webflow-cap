@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Blue Baseball Cap</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+    model-viewer {
+      width: 600px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer src="blue_baseball_cap.glb"
+    alt="Blue Baseball Cap"
+    auto-rotate
+    camera-controls
+    ar>
+  </model-viewer>
+</body>
+</html>
